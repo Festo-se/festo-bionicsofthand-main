@@ -7,11 +7,17 @@
 
 <br>
 
-# Software Architecture
+# IMPORTANT NOTICES
+
+> :warning: **If you open the case of the BionicSoftHand there is the possibility that you get in touch with the 300V piezo electronics! Avoid touching anything inside the case!**
+
+> :warning: **The maxim supply pressure for the BionicSoftHand 2.0 is 6 Bars (700000 PSI). Never go over this amount or the hand can be damaged!** 
+
+# SOFTWARE ARCHITECTURE
 As you can see in the image below the Software architecture has a modular setup. The BionicSoftHand itself is programmed with C and communicates with its python libraries via ethernet. The python libraries provide a basic interface to communicate with the hand. To integrate it more into the robotic world, a ROS interface implementation is provided. Feel free to extend the list of interfaces with whatever you can think of. For example a REST api or an Matlab interface.
 ![BionicSoftHand Software Architecture](images/architecture.png)
 
-# Instructions
+# INSTALL INSTRUCTIONS
 This is the main repository for the BionicSoftHand 2.0. To install all the necessary drivers, follow these instructions. 
 
 ## Prerequisites
