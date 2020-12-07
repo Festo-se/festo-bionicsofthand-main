@@ -7,7 +7,7 @@
 
 <br>
 
-# IMPORTANT NOTICES
+# IMPORTANT NOTICES :warning:
 
 > :warning: **If you open the case of the BionicSoftHand there is the possibility that you get in touch with the 300V piezo electronics! Avoid touching anything inside the case!**
 
