@@ -44,7 +44,7 @@ This will execute the following steps:
 
 ## Setup BionicSoftHand with ROS
 
-Please first install the [BionicSoftHand Python Libraries](#Setup-BionicSoftHand-Python-Libraries)
+Please install the [BionicSoftHand Python Libraries](#Setup-BionicSoftHand-Python-Libraries) to use the ROS interface.
 
 Execute the following command to download and start the shell script.:
 ```
@@ -52,10 +52,8 @@ bash <(wget -qO- https://raw.githubusercontent.com/Festo-se/festo-bionicsofthand
 ```
 
 This will execute the following steps:
-1. Ask if you want to install the corresponding ROS environment also
-    * If yes, execute the [ROS setup script](#Ros-setup-script)
-2. Create the directories for the ROS workspace and the python libraries
-3. Clone all related repositories
-4. Install the python libraries
-5. Execute rosdep to install the ROS dependencies
-6. Build & source the phand ROS environment
+1. Create the directories for the ROS workspace under /home/$USER/dev/phand/phand_ws
+2. Clone the related repository
+    * [BionicSoftHand ROS](https://github.com/Festo-se/phand-ros)
+3. Execute rosdep to install the ROS dependencies
+4. Build & source the phand ROS environment
