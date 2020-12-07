@@ -4,11 +4,9 @@
 
 [![FESTO](images/bionic_soft_hand.png)](https://www.festo.com/group/en/cms/10156.htm)
 
-
 <br>
 
 # IMPORTANT NOTICES :warning:
-
 > :warning: **If you open the case of the BionicSoftHand there is the possibility that you get in touch with the 300V piezo electronics! Avoid touching anything inside the case!**
 
 > :warning: **The BionicSoftHand 2.0 works best with a pressure of 5.5 bars (650000 PSI)! If you go higher the hand can be damaged!** 
@@ -63,6 +61,9 @@ This will execute the following steps (which can also be executed manually):
     * [BionicSoftHand ROS](https://github.com/Festo-se/phand-ros)
 3. Execute rosdep to install the ROS dependencies
 4. Build & source the phand ROS environment
+
+## HELPER SCRIPTS
+There are some helper scripts [here](https://github.com/Schwimo/linux_config) to setup your environment.
 
 # LICENSE
 The Festo BionicSoftHand python libraries are published under the [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.de.html).
