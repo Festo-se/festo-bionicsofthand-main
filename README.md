@@ -11,6 +11,8 @@
 
 > :warning: **The BionicSoftHand 2.0 works best with a pressure of 5.5 bars (650000 PSI)! If you go higher the hand can be damaged!** 
 
+> :warning: **The BionicSoftHand 2.0 is a prototype and not a series product.** 
+
 # SOFTWARE ARCHITECTURE
 As you can see in the image below the Software architecture has a modular setup. The BionicSoftHand itself is programmed with C and communicates with its python libraries via ethernet. The python libraries provide a basic interface to communicate with the hand. To integrate it more into the robotic world, a ROS interface implementation is provided. Feel free to extend the list of interfaces with whatever you can think of. For example a REST api or an Matlab interface.
 ![BionicSoftHand Software Architecture](images/architecture.png)
