@@ -9,13 +9,13 @@ cd /home/$USER/dev/phand/python_libs
 
 # Clone the relevant python library repositories
 echo "Cloning the DHCP libraries"
-git clone https://github.com/Schwimo/bionic-dhcp
+git clone https://github.com/Festo-se/bionic-dhcp
 echo "Cloning the PID controller"
-git clone https://github.com/Schwimo/bionic-pid-control
+git clone https://github.com/Festo-se/bionic-pid-control
 echo "Cloning the BionicMessageTools"
-git clone https://github.com/Schwimo/bionic-message-tools
+git clone https://github.com/Festo-se/bionic-message-tools
 echo "Cloning the BionicSoftHand python libraries"
-git clone https://github.com/Schwimo/phand-python-libs
+git clone https://github.com/Festo-se/phand-python-libs
 
 # install the python libraries
 echo "Installing the DHCP libraries"
