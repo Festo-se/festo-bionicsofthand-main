@@ -1,5 +1,5 @@
 echo "Installing the BionicSoftHand 2.0 ROS workspace"
-echo "Creating the directories under /home/" + $USER
+echo "Creating the directories under /home/"$USER
 
 # Create the directories
 mkdir -p /home/$USER/dev/phand/phand_ws/src
